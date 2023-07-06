@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: rgb(48, 22, 72);
+    }
+
+    .marquee {
+        width: 100%;
+      padding: 20px;
+      background-color: #e6d6e7;
+      white-space: nowrap;
+      overflow: hidden;
+      box-sizing: border-box;
+      
+    }
+
+    .marquee p {      
+      margin: 0;
+      animation: marquee 40s linear infinite;
+      
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .profile {
+      width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #e6d6e7;
+      text-align: center;
+    }
+
+    .profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .profile h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .profile p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="marquee" >
+    <p>This is a Dummy page </p>
+  </div>
+
+  <div class="profile">
+    <img src="/images/nezuko.png" alt="Profile Photo">
+    <h1>Caroline_Susanna</h1>
+    <p>Web Developer</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sit dolore obcaecati vero doloribus similique nam omnis ipsum esse sequi voluptate quos, dolorum labore ratione dolores aut officia facilis iste ipsa nemo ex earum itaque dolorem! Ut nisi asperiores eaque dolore fugiat rem quam, saepe assumenda, sequi aliquid laudantium labore iusto nemo ratione totam nesciunt. Sit omnis temporibus, illum quaerat nostrum aliquam dolorem tempore ea enim eaque aliquid ratione repellat autem natus provident itaque! Temporibus quaerat similique a, et voluptas modi amet fuga quia fugit corporis necessitatibus ut enim corrupti doloribus recusandae libero ullam iste saepe incidunt? Tempore, obcaecati sed.  </p>
+  </div>
+</body>
+</html>
