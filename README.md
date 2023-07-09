@@ -25,7 +25,7 @@ This repository contains a basic template for a webpage with a responsive layout
 ++ Clone the repository ++
 
 ```shell
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Carolsankho/Website-HomePage
 
 
 
