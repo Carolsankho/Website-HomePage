@@ -1,5 +1,5 @@
 
-This repository contains a basic template for a webpage with a responsive layout, featuring a logo, search functionality, content sections, and a footer. It includes HTML and CSS code that can be used as a starting point for building your own webpages.
+This repository contains a basic template for a webpage with a responsive layout, featuring a logo, header,a simple moving image block, content sections, and a footer which gets directed to another profile page. It includes HTML and CSS code that can be used as a starting point for building your own webpages.
 
 # Webpage Template
 
