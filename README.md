@@ -18,7 +18,7 @@ This repository contains a basic template for a webpage with a responsive layout
   
 
 ## Usage
-1.Open the index.html file in your preferred web browser.
+1.Open the LandingPage.html and NextPage.html files in your web browser.
 
 2.Customize the content, styles, and functionality to suit your needs.
 
