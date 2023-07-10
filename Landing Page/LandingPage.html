@@ -3,23 +3,35 @@
   <head>
     <title>Landing Webpage</title>
     <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+
       body {
-        margin: 50px;
-        padding: 10px;
-        font-family: Arial, sans-serif;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url("/images/Bg.jpg");        
+        background-image: url("/images/Bg.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
       }
+
+      header, footer {
+        width: 100vw;
+      }
+
+      .container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
 
       header {
         display: flex;
@@ -224,7 +236,7 @@
       </div>
     </div>
 <footer>
-  <a href="NextPage.html">Creator's work</a>
+  <a href="NextPage.html">Click here to view the Creator's profile(Summa sample page)</a>
 </footer>
     
   </body>
